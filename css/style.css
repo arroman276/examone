@@ -1,0 +1,379 @@
+/*
+ author:Abu Saleh;
+ Email:abusaleh1666@gmail.com;
+ Website:;
+/*
+
+/*
+ =========index=========
+ 	
+ 	1.Header
+ 	2.Books 
+ 	3.Courses
+ 	4.Others
+ 	5.Blog
+ 	6.Sign in
+ 	7.Footer
+
+/*
+
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body{
+
+	font-family: 'Poppins', sans-serif;
+	background-color: #E5E5E5;
+}
+
+
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+
+.logo-img{
+	width: 250px;
+	float: left;
+}
+
+.cstm-btn-one{
+    background: #21B573;
+    color: #fff;
+    border-radius: 30px;
+    display: block;
+    padding: 6px 16px;
+    border: none;
+    font-size: 18px;
+
+}
+
+.cstm-btn-two{
+	
+}
+
+/* custom theme css */
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav-head{
+	padding: 10px 0px;
+	
+}
+
+.nav-item{
+	 padding: 0px 10px;
+}
+
+
+
+
+
+
+/*hero section*/
+
+.hero{
+	
+	padding: 35px 0px;
+}
+
+.hero-title{
+	
+}
+
+.hero-title p{
+	color: #FD511A;
+
+}
+
+.hero-title h2{
+	color: #000000;
+    font-size: 48px;
+    width: 69%;
+}
+
+.hero-title h4{
+	color: #6C6B6B;
+    font-size: 16px;
+    width: 403px;
+    height: 85px;
+    line-height: 36px;
+    margin-bottom: 17px;
+
+}
+
+
+.books-head{
+	padding: 50px 0px;
+}
+
+.books-title{
+
+}
+
+.books-img{
+	width: 80px;
+	height: 83px;
+	margin-bottom: 20px;
+}
+
+.books-title h2{
+	color: #413960;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+
+}
+
+.books-title p{
+	line-height: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #585859;
+}
+
+.courses-head{
+
+}
+
+.courses-title{
+	padding: 25px 0px;
+}
+
+.courses-title h2{
+	text-align: center;
+    color: #413960;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 25px 0px;
+}
+
+
+
+
+.courses-content{
+
+}
+
+.courses-img{
+
+}
+
+.courses-content h2{
+	color: #413960;
+	font-size: 24px;
+	line-height: 36px;
+	padding: 10px 0px;
+}
+
+.courses-content p{
+	color: #585859;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -5%;
+
+}
+
+
+.calender-left{
+	 padding: 45px 0px;
+}
+
+.calender-img{
+	width: 5%;
+    margin: 0;
+}
+
+.calender-content h2{
+	font-size: 15px;
+    position: absolute;
+    bottom: 18px;
+    right: 209px;
+}
+
+.calender-right{
+
+}
+
+.calender-right-img{
+	width: 5%;
+    position: absolute;
+    bottom: 9%;
+    right: 30%;
+    
+}
+
+.calender-right-content h2{
+	position: absolute;
+    bottom: 16px;
+    right: 12%;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.testimonial{
+	padding: 65px 0px;
+}
+
+.testimonial-content-one{
+	padding: 35px 0px;
+}
+
+.testimonial-content-one h2{
+	text-align: center;
+	font-size: 36px;
+}
+
+.testimonial-img{
+	width: 120px;
+	height: 120px;
+}
+
+.testimonial-content-two p{
+    padding: 20px 0px;
+    font-size: 15px;
+}
+
+
+
+footer{
+	width: 100%;
+    float: left;
+    background-color: #282531;
+    padding: 25px 0px;
+    color: #fff;
+}
+
+.foot{
+	padding: 35px 0px;
+}
+
+
+.foot p{
+	text-align: center;	
+	color: #CDCDCD;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*Media quary*/
+
+/*Mobile device*/
+
+@media(max-width:600px){
+	
+    .cstm-btn-one {
+    background: #21B573;
+    color: #fff;
+    border-radius: 30px;
+    display: block;
+    padding: 6px 16px;
+    border: none;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.calender-content h2 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 18px;
+    right: 305px;
+}
+
+.calender-right-img {
+    width: 5%;
+    position: absolute;
+    bottom: 8%;
+    right: 25%;
+}
+
+.calender-right-content h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 11%;
+    font-size: 15px;
+
+
+}
+
+/*small Device*/
+
+@media(min-width:600.1px) and (max-width:768px){
+    
+	.calender-content h2{
+    font-size: 15px;
+    position: absolute;
+    bottom: 22px;
+    right: 362px;
+}
+
+
+}
+
+
+/*Medium Device*/
+
+
+@media(min-width:768.1px) and (max-width:992px){
+
+	
+
+}
+
+/*Large Device*/
+
+@media(min-width:992.1px) and (max-width:1200px){
+	
+}
+
+
+/*Extra Large*/
+
+@media(min-width:1200.1px){
+    
+}
+
+/*Custom Device*/
+
+@media(min-width:576px) and (768px){
+    
+}
